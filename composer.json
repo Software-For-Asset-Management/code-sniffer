@@ -1,0 +1,34 @@
+{
+  "name": "mysam/code-sniffer",
+  "description": "SAM Code Sniffer Standards",
+  "type": "phpcodesniffer-standard",
+  "license": "MIT",
+  "keywords": ["framework", "codesniffer", "phpcs", "standards"],
+  "homepage": "https://mysam.co",
+  "authors": [
+    {
+      "name": "SAM",
+      "homepage": "https://mysam.co"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "squizlabs/php_codesniffer": "^3.5.5",
+    "slevomat/coding-standard": "^6.4"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "scripts": {
+    "cs-check": "vendor/bin/phpcs --extensions=php",
+    "cs-fix": "vendor/bin/phpcbf --extensions=php"
+  },
+  "support": {
+    "source": "https://github.com/Software-For-Asset-Management/code-sniffer"
+  },
+  "config": {
+    "sort-packages": true,
+    "process-timeout": 900
+  }
+}
