@@ -138,7 +138,6 @@
 			</property>
 		</properties>
 	</rule>
-	<rule ref="Generic.Formatting.NoSpaceAfterCast"/>
 
 	<rule ref="Squiz.PHP.Eval"/>
 	<rule ref="Generic.PHP.ForbiddenFunctions"/>
