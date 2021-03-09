@@ -153,6 +153,7 @@
 		<exclude name="PSR12.Files.FileHeader"/>
 		<exclude name="PSR12.Files.DeclareStatement"/>
 		<exclude name="PSR12.Files.OpenTag"/>
+		<exclude name="PSR12.Operators.OperatorSpacing"/>
 	</rule>
 
 	<!-- Disabled - these are contradictory to PSR12 (and PSR12 overrules PSR2) -->
